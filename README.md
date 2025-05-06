@@ -25,6 +25,11 @@ divided by 15 yields ~1.789Mhz, almost the same as the NTSC CPU.
 
 The board takes the input clock, divides it by 4 using a 74'74, then multiplies the result by 5 using an ICS501 PLL, 5/4 is 1.25 :)
 
+### Ordering the boards
+
+You can order the board for this project at [PCBWay](https://www.pcbway.com/project/shareproject/MiniPerformer_d2c49c46.html) and support me or download 
+the gerbers and have them printed wherever you like!!!
+
 ## Hardware
 
 The board was designed with [KiCad](https://kicad.org/) EDA.
