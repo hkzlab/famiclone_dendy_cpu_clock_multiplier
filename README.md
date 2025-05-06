@@ -27,7 +27,7 @@ The board takes the input clock, divides it by 4 using a 74'74, then multiplies 
 
 ### Ordering the boards
 
-You can order the board for this project at [PCBWay](https://www.pcbway.com/project/shareproject/MiniPerformer_d2c49c46.html) and support me or download 
+You can order the board for this project at [PCBWay](https://www.pcbway.com/project/shareproject/Famiclone_Dendy_to_NTSC_CPU_adapter_Clock_Multiplier_e8107b82.html) and support me or download 
 the gerbers and have them printed wherever you like!!!
 
 ## Hardware
