@@ -68,3 +68,5 @@ I'll keep this table updated when I test new CPUs with this adapter.
 | TA-03NP1  | ❌         | Works, but has severe glitching and speed issues in some games  |
 | UA6547P (old model, /16 divisor) | ❌ |  Works, but has severe glitching in games  |
 | UA6547P (/15 divisor) | ✔️ | It Works! |
+
+![Photo of a relabeled UA6547P](pics/ua6547p_relabeled.jpg)
