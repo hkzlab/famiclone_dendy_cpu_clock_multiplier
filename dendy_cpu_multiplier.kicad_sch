@@ -2829,6 +2829,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 55.245) (xy 54.61 57.785)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14bec74d-8517-4baf-8c60-7fab99257089")
+	)
+	(wire
+		(pts
 			(xy 127 106.68) (xy 142.24 106.68)
 		)
 		(stroke
@@ -2956,6 +2966,16 @@
 			(type default)
 		)
 		(uuid "49756fa2-d56d-45df-9e96-cff3ca665b45")
+	)
+	(wire
+		(pts
+			(xy 50.8 55.245) (xy 54.61 55.245)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4abc47a3-96d5-4dc8-8f72-28893946d823")
 	)
 	(wire
 		(pts
@@ -4008,6 +4028,71 @@
 			(project ""
 				(path "/e570d65d-aa38-4930-a27b-b21b582b3289"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 45.72 55.245 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "347ba1e7-99cd-4321-afe2-d1e1ba26dd43")
+		(property "Reference" "J3"
+			(at 45.72 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 45.72 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 45.72 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 45.72 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "207a6cd3-c011-4f58-9120-4ff34f7b92c6")
+		)
+		(instances
+			(project "dendy_cpu_multiplier"
+				(path "/e570d65d-aa38-4930-a27b-b21b582b3289"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -5179,7 +5264,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 45.72 44.45 0)
 			(effects
 				(font
@@ -5586,6 +5671,72 @@
 			(project "dendy_cpu_multiplier"
 				(path "/e570d65d-aa38-4930-a27b-b21b582b3289"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 54.61 57.785 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc80324c-53f1-48e1-a013-3f93e1e9e52e")
+		(property "Reference" "#PWR017"
+			(at 54.61 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.61 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 54.61 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94674bdc-95c0-4c69-b7e9-611baa2beece")
+		)
+		(instances
+			(project "dendy_cpu_multiplier"
+				(path "/e570d65d-aa38-4930-a27b-b21b582b3289"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
