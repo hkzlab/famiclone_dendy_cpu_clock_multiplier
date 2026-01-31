@@ -25,6 +25,21 @@ divided by 15 yields ~1.789Mhz, almost the same as the NTSC CPU.
 
 The board takes the input clock, divides it by 4 using a 74'74, then multiplies the result by 5 using an ICS501 PLL, 5/4 is 1.25 :)
 
+### Rev. 1 "Between sockets" installation
+
+Rev. 1 boards can be installed either on the underside of the motherboard, which requires then modifying the motherboard itself to interrupt the clock that goes to pin 29 of the CPU or,
+optionally, between two DIP40 sockets (one on the motherboard and the one where you'll plug the CPU in).
+
+You'll need an open-frame socket of the type shown in the picture, you'll have to cut and isolate pin 29 on the top socket (as shown in picture) and then route a wire to pick up the clock
+signal from the motherboard.
+
+![Photo of a Rev.1 board between two sockets, showing how the components fit through the open frame](pics/rev_1_between_sockets.jpg)
+
+![Photo of Rev.1 soldered beneath a socket, showing how pin 29 is isolated](pics/rev_1_socket.jpg)
+
+
+If you go this route, **order boards with 1mm thickness and not 1.6!**
+
 ### Ordering the boards
 
 You can order the board for this project at [PCBWay](https://www.pcbway.com/project/shareproject/Famiclone_Dendy_to_NTSC_CPU_adapter_Clock_Multiplier_e8107b82.html) and support me or download 
